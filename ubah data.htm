@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+  <form action="#" method="post">
+    <fieldset>
+      <legend>Tambah / Ubah Data</legend>
+
+      <p>
+        <label for="nama">Nama:</label><br>
+        <input type="text" id="nama" name="nama" placeholder="Nama lengkap" required>
+      </p>
+
+
+      <p>
+        <label for="tanggal">Tanggal:</label>
+        <input type="date" id="tanggal" name="tanggal" required>
+
+        <br>
+        <br>
+
+        <label for="pukul"> Waktu:</label>
+        <input type="time" id="pukul">
+
+      </p>
+
+      <p>Status Kehadiran:</p>
+
+      <p>
+        <input type="radio" id="hadir" name="status" value="hadir" checked>
+        <label for="hadir">Hadir</label><br>
+
+        <input type="radio" id="sakit" name="status" value="sakit">
+        <label for="sakit">Sakit</label><br>
+
+        <input type="radio" id="izin" name="status" value="izin">
+        <label for="izin">Izin</label><br>
+
+        <input type="radio" id="terlambat" name="status" value="terlambat">
+        <label for="terlambat">Terlambat</label><br>
+
+        <input type="radio" id="alpha" name="status" value="alpha">
+        <label for="alpha">Alpha</label>
+      </p>
+
+      <p>
+        <label for="keterangan">Keterangan:</label><br>
+        <textarea id="keterangan" name="keterangan" rows="3" cols="30" placeholder="Opsional"></textarea>
+      </p>
+
+      <button type="submit">Simpan</button>
+      
+
+    </fieldset>
+  </form>
+
+
+
+
+
+
+
+
+
+
+
+
+    
+</body>
+</html>
